@@ -13,6 +13,10 @@ header {
     padding: 0;
     gap: 0;
 }
+img {
+    width: 350px;
+    height: 350px;
+}
 h1 {
     display: flex;
     justify-content: center;
@@ -77,6 +81,12 @@ ul#product-display {
     align-items: center;
     margin-top: 20px;
 
+}
+.cartAdd {
+    width: 350px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .listStyle {
