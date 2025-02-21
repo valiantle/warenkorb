@@ -8,6 +8,15 @@ a:hover {
     text-decoration: none;
     text-shadow: 0 0 1px rgb(33, 223, 49);
 }
+#cartMenu {
+    position: absolute;
+    display: none;
+    width: 350px;
+    min-height: 250px;
+    background-color: rgb(243, 179, 227);
+    right: 15%;
+}
+
 header {
     margin: 0;
     padding: 0;
