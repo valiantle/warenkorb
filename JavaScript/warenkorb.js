@@ -93,7 +93,7 @@ function totPriceUpdt() {
     document.getElementById("summary").innerText = "Summary : " + totalPrice;
 }
 
-                                                                            // Закрытие корзины при клике вне ее области
+                                                                            // закрытие корзины при клике вне ее области
 document.body.addEventListener("click", function(event) {
     // event.stopPropagation()
     if (event.target.dataset.id !== undefined) {
